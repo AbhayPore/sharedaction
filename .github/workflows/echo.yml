@@ -4,11 +4,11 @@ on:
   workflow_call:
 
 jobs:
-  do-it:
+  example-of-shared-lib:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: echo Hello, world! This is share library example
+        run: echo Hello, world! This is shared library example
