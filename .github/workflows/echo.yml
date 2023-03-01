@@ -1,7 +1,7 @@
 name: Just an Echo
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   do-it:
